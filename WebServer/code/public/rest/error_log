@@ -1,0 +1,2 @@
+[16-Oct-2021 12:44:24 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/lessons/Air-Quality-Analyzer/WebServer/code/db/db.php on line 3
+[16-Oct-2021 13:33:51 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/lessons/Air-Quality-Analyzer/WebServer/code/db/db.php on line 3

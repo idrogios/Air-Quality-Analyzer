@@ -1,9 +1,14 @@
 <?php
 
-    require 'vendor/autoload.php';
+    require '../../vendor/autoload.php';
     use Medoo\Medoo;
 
-    $db_config = json_decode(file_get_contents("./db.json"), true);
-    $database = new Medoo($db_config);
+    $database = new Medoo([
+        'database_type' => 'mysql',
+        'database_name' => 'lessons_air-quality',
+        'server' => 'localhost',
+        'username' => '',
+        'password' => ''
+    ]);
 
 ?>

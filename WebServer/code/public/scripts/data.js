@@ -1,5 +1,5 @@
 let schools = (async () => {
-    let response = await fetch('http://lessons.idrogios.com/Air-Quality-Analyzer/Air-Quality-Analyzer/rest/get.php');
+    let response = await fetch('https://lessons.idrogios.com/rest/get.php');
     return await response.json();
 })();
 
