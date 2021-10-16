@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <title>Schools</title>
+    <title>Air Quality Analyzer</title>
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -21,10 +21,14 @@
       .c3-legend-item, .c3-axis {
         fill: white;
       }
+      .text-shadow {
+        text-shadow: -2px -2px 3px black;
+      }
     </style>
   </head>
   <body class="ma0">
     <section class="vh-100 w-100 map"></section>
+    <h1 class="fixed z-max top-0 left-2 white text-shadow">Air Quality Analyzer</h1>
     <input type="checkbox" class="dn fixed" id="sidepanel-toggle" name="sidepanel-toggle" value="Show sidepanel">
     <label class="fixed z-max top-1 right-2 white pointer" for="sidepanel-toggle">Hide/show charts ☰</label>
     <a class="fixed z-max top-2 right-2 white" href="https://github.com/Zalaxci/Air-Quality-Analyzer">About ℹ️</a>

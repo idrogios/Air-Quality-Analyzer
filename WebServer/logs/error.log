@@ -19,3 +19,12 @@
 2021/10/16 14:17:18 [notice] 4784#3940: signal process started
 2021/10/16 14:20:22 [notice] 6052#2744: signal process started
 2021/10/16 14:50:41 [error] 5960#7368: *2 CreateFile() "D:\Air-Quality-Analyzer\WebServer/code/public/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/16 17:05:31 [emerg] 11424#7228: CreateDirectory() "D:\Code\Air-Quality-Analyzer\WebServer/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/10/16 17:05:55 [emerg] 11136#13268: CreateDirectory() "D:\Code\Air-Quality-Analyzer\WebServer/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/10/16 17:06:09 [emerg] 11996#10136: CreateDirectory() "D:\Code\Air-Quality-Analyzer\WebServer/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/10/16 17:06:30 [notice] 6744#3628: signal process started
+2021/10/16 17:06:30 [error] 6744#3628: OpenEvent("Global\ngx_quit_1476") failed (2: The system cannot find the file specified)
+2021/10/16 17:06:36 [notice] 6772#9376: signal process started
+2021/10/16 17:06:36 [error] 6772#9376: OpenEvent("Global\ngx_quit_1476") failed (2: The system cannot find the file specified)
+2021/10/16 17:06:49 [emerg] 2512#3416: CreateDirectory() "D:\Code\Air-Quality-Analyzer\WebServer/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/10/16 17:08:15 [error] 9428#11816: *1 CreateFile() "D:\Code\Air-Quality-Analyzer\WebServer/code/public/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
