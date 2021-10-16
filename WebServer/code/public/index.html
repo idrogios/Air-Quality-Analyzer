@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Schools</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/c3@0.7.2/c3.min.css">
+    <style>
+      .chart {
+        height: 50vh !important;
+        max-height: 50vh !important;
+      }
+      #sidepanel-toggle:checked ~ #sidepanel, #sidepanel-toggle:checked ~ #sidepanel * {
+        visibility: hidden;
+      }
+      .c3-legend-item, .c3-axis {
+        fill: white;
+      }
+    </style>
+  </head>
+  <body class="ma0">
+    <section class="vh-100 w-100 map"></section>
+    <input type="checkbox" class="dn fixed" id="sidepanel-toggle" name="sidepanel-toggle" value="Show sidepanel">
+    <label class="fixed z-max top-1 right-2 white pointer" for="sidepanel-toggle">Hide/show charts ☰</label>
+    <a class="fixed z-max top-2 right-2 white" href="https://github.com/Zalaxci/Air-Quality-Analyzer">About ℹ️</a>
+    <section class="fixed z-9999 top-0 right-0 bottom-0 mh-100 w-100 w-50-m w-third-l overflow-y-scroll bg-black-80" id="sidepanel">
+      <a href="https://www.epa.gov/pm-pollution/particulate-matter-pm-basics#PM"><h2 class="z-max w-100 tc white">2.5μm Particle Matter</h2></a>
+      <div class="vh-50 w-100 chart" id="pm2_5"></div>
+      <a href="https://www.epa.gov/pm-pollution/particulate-matter-pm-basics#PM"><h2 class="z-max w-100 tc white">10μm Particle Matter</h2></a>
+      <div class="vh-50 w-100 chart" id="pm10"></div>
+      <h2 class="z-max w-100 tc white">Temperature in Celcius</h2>
+      <div class="vh-50 w-100 chart" id="temp"></div>
+      <h2 class="z-max w-100 tc white">Humidity</h2>
+      <div class="vh-50 w-100 chart" id="humidity"></div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cash/8.1.0/cash.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+    <script src="https://unpkg.com/d3@5.16.0/dist/d3.min.js"></script>
+    <script src="https://unpkg.com/c3@0.7.2/c3.min.js"></script>
+    <script type="module" src="http://localhost/scripts/components.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "name": "zalaxci/air-quality-analyzer",
+    "description": "Συγκριτική ανάλυση της ποιότητας του αέρα έξω από σχολικές μονάδες",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "catfan/medoo": "^1.7.10"
+    },
+    "require-dev": {
+        "overtrue/phplint": "^2.0",
+        "vimeo/psalm": "^4.8"
+    }
+}
