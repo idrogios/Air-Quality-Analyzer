@@ -9,6 +9,10 @@
 
 Με το έργο μας ευελπιστούμε να τοποθετηθούν σε κάθε σχολείο και οπουδήποτε αλλού κριθεί αναγκαίο για την προστασία των ευπαθών ομάδων, παρόμοιοι σταθμοί μέτρησης, ώστε να υπάρχει συνεχής παρακολούθηση του επιπέδου ρύπανσης της ατμόσφαιρας.
 
+Video:
+
+[![Air Quality Analyzer - By Idrogeios Education CODELAB](https://img.youtube.com/vi/12YQYbZlpNA/0.jpg)](https://www.youtube.com/watch?v=12YQYbZlpNA)
+
 <img src="https://openedtech.ellak.gr/wp-content/uploads/sites/31/2021/10/diagram.jpg"/>
 
 **Τα υλικά που χρησιμοποιήσαμε:**
