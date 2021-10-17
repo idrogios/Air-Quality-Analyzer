@@ -71,7 +71,7 @@ while True:
     # Getting measurements from the DHT11 sensor
     
     data = pms5003.read()
-    # Getting measurements from the PMS50003 sensor
+    # Getting measurements from the PMS5003 sensor
     
     currentTime = datetime.now()
     # Getting the time we got the measurements
